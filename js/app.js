@@ -81,14 +81,21 @@ function createFooter(){
   footerRow.appendChild(firstCell);
   firstCell.textContent = 'GrandTotal';
 
+
+
   // for (let i = 0; i < storeHours.length; i++){
-  //   let totalFooterCell = document.createElement('th');
-  //   totalFooterCell.textContent = storeHours[i];
-  //   footerRow.appendChild(totalFooterCell);
+  //   let sum = 0;
+  //   for (let j = 0; j < this.cookiesArray.length; j++){
+  //     sum += this.cookiesArray[j][i];
+
+  //     let totalFooterCell = document.createElement('th');
+  //     totalFooterCell.textContent = storeHours[i];
+  //     footerRow.appendChild(totalFooterCell);
+  //   }
   // }
-
-
 }
+
+
 
 const seattle = new Stores('Seattle', 23, 65, 6.3);
 const tokyo = new Stores('Tokyo', 3, 24, 1.2);
