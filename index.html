@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Cookie Store</title>
+  <title>Salmon Cookie Shop</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,14 +11,56 @@
 </head>
 <body>
   <header>
-    <h1>Cookie Store</h1>
+    <div id="titlecontainer">
+    <img src="img/salmon.png" alt="" id="salmonimg">
+    <h1>Salmon Cookie Shop</h1>
+    </div>
     <nav>
-      <h2><a href="sales.html">Sales Page</a></h2>
+      <ul>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Hours of operations</li>
+          <li><a href="#">Shop Online-COMING SOON!</li>
+        <li><a href="#">Contact Us</li>
+        <li><a href="sales.html">Sales Page</a></li>
+      </ul>
     </nav>
   </header>
-
   <main>
-    <h2></h2>
+    <div id="maincontentcontainer">
+      <img src="img/family.jpg" alt="Family" id="familyimg">
+      <img src="img/fish.jpg" alt="fish" id="fishimg">
+      <p>Welcome to my Salmon Cookie Shop.  I have locations all around the world for your fishy cookie enjoyment.  Whether you're enjoying the sights in Seattle, on vacation in Tokyo, cruising in your sports car in Dubai, hiking Lomas de Lucumo in Lima, sipping your favorite wine in Paris, walk on in and grab yourself a delightful snack!!  </p>
+    
+    </div>
+
+
+    <ul id="groupimg">
+      <li><img src="img/cutter.jpeg" alt=""></li>
+      <li><img src="img/fish.jpg" alt=""></li>
+      <li><img src="img/shirt.jpg" alt=""></li>
+      <li><img src="img/chinook.jpeg" alt=""></li>
+    </ul>
+
+    <article id="locationsandhours">
+    <h2>Hours of Operations:   </h2>
+    <ul>
+      <li>Monday 6am to 7pm</li>
+      <li>Tuesday 6am to 7pm</li>
+      <li>Wednesday 6am to 7pm</li>
+      <li>Thursday 6am to 7pm</li>
+      <li>Friday 6am to 7pm</li>
+      <li>Saturday 6am to 7pm</li>
+      <li>Sunday 6am to 7pm</li>
+    </ul> 
+    <h3>Locations:   </h3>
+    <ul>
+      <li>Seattle 123 Main St Seattle, WA, 206-123-4567</li>
+      <li>Tokyo-123 Main St Tokyo, Japan, +81-801234-56789</li>
+      <li>Dubai-123 Main St Dubai, UAE, +9710402245555</li>
+      <li>Paris-123 Main St Paris, France, +3312345678</li>
+      <li>Lima-123 Main St Lima, Peru, +5112345678</li>
+    </ul>
+    </article>
     <section id="store-profiles"></section>
 
     <!-- generate this from js: -->
@@ -34,7 +76,9 @@
         -->
 
   </main>
-  <footer>&copy; Stephen Martinez</footer>
+  <footer>
+    <div>&copy; Stephen Martinez</div>    
+  </footer>
   
 </body>
 </html>

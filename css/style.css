@@ -1,10 +1,69 @@
 body {
-  background-color: lightgray;
+  background-color: rgb(241, 230, 230);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-background-color: darkgrey;
-height: 50px;
+background-color: rgb(177, 231, 229);
+height: 175px;
+margin-bottom: 20px;
+}
+
+#salmonimg {
+  max-width: 25%;
+}
+
+#titlecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#maincontentcontainer {
+  display: flex;
+  margin: 50px;
+}
+
+nav ul {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+header h1 {
+  color: salmon;
+  font-size: 80px;
+  font-family: fantasy;
+  margin-top: 15px;
+  text-align: start;
+}
+
+#familyimg {
+  max-width: 50%;
+  margin-left: 25px;
+  justify-content: space-around;
+}
+
+#fishimg {
+  max-width: 100%;
+  margin-left: 25px;
+  justify-content: space-around;
+}
+
+
+main p {
+  background-color: rgb(177, 231, 229);
+  align-content: flex-start;
+  font-family: cursive;
+  color: salmon;
+  font-size: 25px;
+}
+
+#groupimg {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 table * {
@@ -13,3 +72,26 @@ table * {
   border: 2px dashed black;
   padding: 10px;
 }
+
+nav img {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+main ul li img {
+  width: 50%;
+  height: auto;
+}
+
+#locationsandhours {
+  display: flex;
+  color: salmon;
+  font-family: cursive;
+  font-size: 25px;
+  
+}
+
+footer div {
+  background-image: url(img/salmon.png);
+  }
