@@ -10,13 +10,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        
+    <header>        
         <h1>Cookie Stand</h1>
         <a href="index.html">Home</a>
     </header>
-    <section id="store-profiles"></section>
-    
+    <main>
+    <table id="table"></table>
+        <form id="new-form">
+
+            <fieldset>
+
+                <legend>New Store Form</legend>
+
+                <label for="location">Location:</label>
+                <input id="location" type="text" name="location">
+                </label>
+
+                <label for="minCus">Min Customer Count:</label>
+                <input id="minCus" type="text" name="minCus">
+                </label>
+
+                <label for="maxCus">Max Customer Count:</label>
+                <input id="maxCus" type="text" name="maxCus">
+                </label>
+
+                <label for="avgSale">Average Cookie Sale per Customer:</label>
+                <input id="avgSale" type="text" name="avgSale">
+                </label>
+                
+            </fieldset>
+            <button type="submit">Submit</button>
+
+        </form>
+     </main>
     <script src="js/app.js"></script>
 </body>
 </html>
