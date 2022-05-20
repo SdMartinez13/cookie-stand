@@ -4,9 +4,7 @@ const storeHours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '
 
 const tableElem = document.getElementById('table');
 const stores = [];
-
 const newStoreForm = document.getElementById('new-form');
-
 const tableFooter = document.createElement('tfoot');
 
 

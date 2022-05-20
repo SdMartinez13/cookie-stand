@@ -71,6 +71,7 @@ table * {
   background-color: whitesmoke;
   border: 2px solid salmon;
   padding: 10px;
+  
 }
 
 td:hover {
@@ -100,21 +101,21 @@ main ul li img {
   }
 
   form {
-    font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
+  font-family: fantasy;
+  color: salmon;
   padding: 2rem;
   width: 60%;
   margin: auto;
   margin-top: 4rem;
-  border-radius: 1rem;
-  background-color: hsl(222, 79%, 78%);
-  border: 4px solid hsl(202, 15%, 26%);
-  display: grid;
+  background-color: rgb(177, 231, 229);
+  border: 4px solid salmon;
   grid-template-columns: 1fr 1.25fr;
+  display: inline-block;
   }
 
   button {
     color: salmon;
+    
     
   }
 
